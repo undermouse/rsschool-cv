@@ -4,6 +4,7 @@
 * GitHub: [undermouse](https://github.com/undermouse/) 
 * E-mail: plur@live.ru
 * Phone: +7900013756
+* Discord: undermouse
  - - -
 
 **Summary**
