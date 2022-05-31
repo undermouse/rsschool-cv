@@ -20,7 +20,10 @@ Figma(for web development)
 Editors: VSCode, PyCharm community.
 
 **Code example**
-`let sumAB = (a, b) => a + b`
+`function multiply(a, b) {`
+`return a * b`
+`}`
+
 
 **Education**
 
