@@ -1,1 +1,1 @@
-# rsschool-cv
+https://undermouse.github.io/rsschool-cv/cv
