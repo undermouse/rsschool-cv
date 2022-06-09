@@ -20,6 +20,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -27,6 +29,30 @@ html {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.container-1000 {
+    width: 1000px;
+}
+
+.col-200 {
+    width: 200px;
+}
+
+.col-300 {
+    width: 300px;
+} 
+
+.col-500 {
+    width: 500px;
+}
+
+.weight-100 {
+    font-weight: 100;
+}
+
+.weight-300 {
+    font-weight: 300;
 }
 
 .header {
@@ -100,6 +126,24 @@ a:focus::after {
     align-items: center;
     list-style: none;
     margin-top: 5px;
+}
+
+#avatar {
+   width: 200px;
+   height: 200px; 
+}
+
+.av-div {
+    border: 1px solid #000;
+}
+
+.thin-hr {
+    border: 1px solid #000000;
+}
+
+.fat-hr {
+    border: 7px solid #829199ce;
+    
 }
 
 .small-octocat {
