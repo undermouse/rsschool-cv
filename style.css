@@ -33,6 +33,11 @@ html {
 
 .container-1000 {
     width: 1000px;
+    margin-top: 20px;
+}
+
+.container-1400 {
+    width: 1400px;
 }
 
 .col-200 {
@@ -45,6 +50,10 @@ html {
 
 .col-500 {
     width: 500px;
+}
+
+.col-700 {
+    width: 700px;
 }
 
 .weight-100 {
@@ -143,7 +152,9 @@ a:focus::after {
 
 .fat-hr {
     border: 7px solid #829199ce;
-    
+    width: auto; 
+    margin-left: 20%; 
+    margin-right: 20%;
 }
 
 .small-octocat {
