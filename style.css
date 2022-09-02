@@ -1,3 +1,7 @@
+:root {
+  func: --(func)
+}
+
 html {
   scroll-behavior: smooth;
   margin: 0;
@@ -32,6 +36,19 @@ a:not(hover) {
 
 .text {
   font-size: 24px;
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+  font-size: 24px;
+}
+
+.go-home {
+  margin-top: -5px;
+}
+
+.strong {
   font-weight: bold;
 }
 
@@ -130,4 +147,25 @@ a:not(hover) {
 
 .text-left {
   text-align: left;
+}
+
+.code-example {
+  margin-left: -55px;
+  font-size: 23px;
+  font-family: 'Poiret One', cursive;
+}
+
+.func {
+  color: #c77a39;
+  font-weight: bold;
+}
+
+.push {
+  color: #eeb334;
+  font-weight: bold;
+}
+
+.test {
+  color: #838fa1;
+  font-weight: bold;
 }
