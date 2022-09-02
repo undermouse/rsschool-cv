@@ -1,11 +1,8 @@
-:root {
-  func: --(func)
-}
-
 html {
   scroll-behavior: smooth;
   margin: 0;
 }
+
 
 body {
   font-family: 'Poiret One', cursive;
@@ -27,12 +24,14 @@ a:hover {
   transform: scale(1.1);
   color: orange;
   transition: all .25s;
+  filter: grayscale(0);
 }
 
 a:not(hover) {
   transform: scale(1);
   transition: all .45s;
 }
+
 
 .text {
   font-size: 24px;
@@ -168,4 +167,31 @@ a:not(hover) {
 .test {
   color: #838fa1;
   font-weight: bold;
+}
+
+footer {
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  filter: opacity(0.5);
+  margin-left: -35px;
+}
+
+.git {
+  height: 70px;
+  width: 80px;
+}
+
+.rs {
+  height: 120px;
+  width: 120px;
+}
+
+.codewars {
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
 }
