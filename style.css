@@ -60,6 +60,15 @@ a:not(hover) {
   opacity: .9;
 }
 
+.photo-img:hover {
+  filter: grayscale(0);
+  transition: all .33s;
+}
+
+.photo-img:not(hover) {
+  transition: all .33s;
+}
+
 .name {
  font-size: 100px;
  font-weight: 100;
