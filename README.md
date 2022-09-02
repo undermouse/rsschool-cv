@@ -1,1 +1,1 @@
-https://undermouse.github.io/rsschool-cv/cv
+https://undermouse.github.io/rsschool-cv/
