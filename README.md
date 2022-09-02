@@ -1,2 +1,1 @@
-# rsschool-cv
-@RS School Stage#1
+https://undermouse.github.io/rsschool-cv/cv
