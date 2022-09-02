@@ -1,0 +1,197 @@
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+
+body {
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 2px;
+}
+
+h1 {
+  color: #151515;
+}
+
+a {
+  text-decoration: none;
+  color: #151515;
+  
+}
+
+a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: orange;
+  transition: all .25s;
+  filter: grayscale(0);
+}
+
+a:not(hover) {
+  transform: scale(1);
+  transition: all .45s;
+}
+
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+  font-size: 24px;
+}
+
+.go-home {
+  margin-top: -5px;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.sub-heading {
+  
+  font-size: 34px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-img {
+  width: 15%;
+  height: 15%;
+  filter: grayscale(1);
+  border-radius: 60%;
+  margin: 0 15px 20px 15px;
+  padding-left: 20px;
+  opacity: .9;
+}
+
+.photo-img:hover {
+  filter: grayscale(0);
+  transition: all .33s;
+}
+
+.photo-img:not(hover) {
+  transition: all .33s;
+}
+
+.name {
+ font-size: 100px;
+ font-weight: 100;
+ letter-spacing: 4px;
+}
+
+.main-container {
+ flex-direction: row;
+ display: flex;
+ align-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  /* padding-right: 20px; */
+}
+
+.dot-line {
+  width: 10%;
+ display: flex;
+ flex-direction: column;
+ width: 30px;
+ align-items: center;
+ gap: 10px;
+ opacity: .25;
+ flex-grow: 0;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: dodgerblue;
+  border-radius: 50%;
+}
+
+.line {
+  width: 5px;
+  background: gray;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.code-example {
+  margin-left: -55px;
+  font-size: 23px;
+  font-family: 'Poiret One', cursive;
+}
+
+.func {
+  color: #c77a39;
+  font-weight: bold;
+}
+
+.push {
+  color: #eeb334;
+  font-weight: bold;
+}
+
+.test {
+  color: #838fa1;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  filter: opacity(0.5);
+  margin-left: -35px;
+}
+
+.git {
+  height: 70px;
+  width: 80px;
+}
+
+.rs {
+  height: 120px;
+  width: 120px;
+}
+
+.codewars {
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+}
