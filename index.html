@@ -90,11 +90,11 @@
               <span class="func">let</span> y = seconds;
             
               <span class="func">let</span> human = [];
-              <span class="func">if</span> (y) human.<span class="push">push</span>(y + ' year' + (y > 1 ? 's' : ''));
-              <span class="func">if</span> (d) human.<span class="push">push</span>(d + ' day' + (d > 1 ? 's' : ''));
-              <span class="func">if</span> (h) human.<span class="push">push</span>(h + ' hour' + (h > 1 ? 's' : ''));
-              <span class="func">if</span> (m) human.<span class="push">push</span>(m + ' minute' + (m > 1 ? 's' : ''));
-              <span class="func">if</span> (s) human.<span class="push">push</span>(s + ' second' + (s > 1 ? 's' : ''));
+              <span class="func">if</span> (y) human.<span class="push">push</span>(y + ' year' + (y &gt; 1 ? 's' : ''));
+              <span class="func">if</span> (d) human.<span class="push">push</span>(d + ' day' + (d &gt; 1 ? 's' : ''));
+              <span class="func">if</span> (h) human.<span class="push">push</span>(h + ' hour' + (h &gt; 1 ? 's' : ''));
+              <span class="func">if</span> (m) human.<span class="push">push</span>(m + ' minute' + (m &gt; 1 ? 's' : ''));
+              <span class="func">if</span> (s) human.<span class="push">push</span>(s + ' second' + (s &gt; 1 ? 's' : ''));
           
             <span class="func">return</span> human.join(', ').replace(/,([^,]*)$/, ' and$1');
           }
