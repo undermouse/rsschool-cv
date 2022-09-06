@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <title>CV: Alexey Smirnov @ RSSchool FE Stage#1</title>
+</head>
+<body>
+  <div class="header">
+    <h1 class="name">Alexey</h1>
+    <img class="photo-img" src="./photo.jpg" alt="">
+    <h1 class="name">Smirnov</h1>
+  </div>
+  <main>
+    <div class="main-container">
+      <div class="left text-right">
+        <h2 class="sub-heading text-right">Contacts:</h2>
+        <p class="text">E-mail: <a href="mailto:plur@live.ru">plur@live.ru</a></p>
+        <p class="text">Tel: +79000013576</p>
+        <p class="text">Discord: @undermouse</p>
+        <p class="text">Codewars: <a href="https://www.codewars.com/users/undermouse/">@undermouse</a></p>
+        <h2 class="sub-heading text-right">Skills:</h2>
+        <ul class="list">
+          <li>Git / Github</li>
+          <li>JavaScript (beginner)</li>
+          <li>CSS 3 / HTML 5</li>
+          <li>Webpack</li>
+          <li>Python (beginner)</li>
+        </ul>
+        <h2 class="sub-heading text-right">Education:</h2>
+        <ul class="list">
+          <li>RANEPA '14</li>
+          <li>Rolling Scopes School Stage#0 '22</li>
+        </ul>
+        <h2 class="sub-heading text-right">English:</h2>
+        <ul class="list">
+          <li class="strong">B1-B2</li>
+          <li>I can easily read and write in English (technical and fiction). Colloquial is a little worse.</li>
+        </ul>
+      </div>
+      <div class="dot-line">
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div class="dot"></div>
+      </div>
+      <div class="right">
+        <h2 class="sub-heading text-left">About me:</h2>
+        <p class="text text-left">Graduated from RANEPA in 2014. I have been doing 1C and system administration for the last 10
+          years. I've
+          always wanted to do frontend and I think the time has come.</p>
+          <h2 class="sub-heading text-left">Projects:</h2>
+        <p class="text text-left  go-home"><a href="https://github.com/undermouse/momentum">Momentum</a></p>
+        <h2 class="sub-heading text-left">Code example:</h2>
+        <pre class="code-example test">
+          <span class="func">function</span> <span class="push">formatDuration</span>(seconds) {
+              <span class="func"><span class="func">if</span></span> (seconds === 0) <span class="func">return</span> 'now';
+              <span class="func">let</span> s = seconds % 60;
+              seconds = (seconds - s) / 60;
+              <span class="func">let</span> m = seconds % 60;
+              seconds = (seconds - m) / 60;
+              <span class="func">let</span> h = seconds % 24;
+              seconds = (seconds - h) / 24;
+              <span class="func">let</span> d = seconds % 365;
+              seconds = (seconds - d) / 365;
+              <span class="func">let</span> y = seconds;
+              <span class="func">let</span> human = [];
+              <span class="func">if</span> (y) human.<span class="push">push</span>(y + ' year' + (y &gt; 1 ? 's' : ''));
+              <span class="func">if</span> (d) human.<span class="push">push</span>(d + ' day' + (d &gt; 1 ? 's' : ''));
+              <span class="func">if</span> (h) human.<span class="push">push</span>(h + ' hour' + (h &gt; 1 ? 's' : ''));
+              <span class="func">if</span> (m) human.<span class="push">push</span>(m + ' minute' + (m &gt; 1 ? 's' : ''));
+              <span class="func">if</span> (s) human.<span class="push">push</span>(s + ' second' + (s &gt; 1 ? 's' : ''));
+            <span class="func">return</span> human.join(', ').replace(/,([^,]*)$/, ' and$1');
+          }
+        </pre>
+        </div>
+        </div>
+  </main>
+<footer>
+  <a href="https://github.com/undermouse/"><img src="./footer/github.svg" alt="github link and logo" class="git"></a>
+  <a href="https://rs.school/js/"><img src="./footer/rs.svg" alt="rolling scopes link and logo" class="rs"></a>
+  <a href="https://www.codewars.com/users/undermouse/"><img src="./footer/codewars.svg" alt="codewars link and logo" class="codewars"></a>
+</footer>
+</body>
+</html>
